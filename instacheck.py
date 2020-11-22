@@ -2,9 +2,9 @@ import os
 from telethon import TelegramClient, events
 from instagramy import InstagramUser
 
-BOT_TOKEN = os.getenv('BOT_TOKEN')
-API_ID = os.getenv('API_ID')
-API_HASH = os.getenv('API_HASH')
+BOT_TOKEN = os.environ['BOT_TOKEN']
+API_ID = os.environ['API_ID']
+API_HASH = os.environ['API_HASH']
 
 bot = TelegramClient('bot', API_ID, API_HASH).start(bot_token=BOT_TOKEN)
 
