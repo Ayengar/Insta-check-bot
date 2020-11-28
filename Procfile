@@ -1,1 +1,1 @@
-bot: python instacheck.py
+web: python instacheck.py
