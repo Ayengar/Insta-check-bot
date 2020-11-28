@@ -1,1 +1,1 @@
-web: python instacheck.py
+web: python3 instacheck.py
